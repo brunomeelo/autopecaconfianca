@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    color: white;    
+}
+img{
+    width: 100%;
+    transform: scale(1.3);
+}
+body{
+    background-image: url(../img/bgconfianca.jpg);
+    background-size: 500px;
+}
+@font-face {
+    font-family: minhafonte;
+    src: url(../style/IndubitablyNF.ttf);
+}
+.container{
+    margin: auto;    
+    background-color: rgb(63, 63, 63);
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;   
+}
+.barra{
+    height: 200px;
+    background-color: rgb(24, 24, 24);
+}
+.painel{
+    background-image: url(../img/carheader2.png);
+    background-size: 430px;
+    background-repeat: no-repeat;    
+    background-position: initial;
+    font-size: 1rem;
+    text-align: center;
+    color: white;    
+    
+}
+.painel h1{
+    font-family: MinhaFonte;
+    font-size: 4rem;
+    font-weight: lighter;
+    background: -webkit-linear-gradient(#ffff00, #ff0000);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgba(165, 27, 27,0.5) -1px 1px 1px, rgba(251, 255, 0,0.5) 1px -1px 1px;
+}
+.portifolio div{
+    margin-top: 10px;
+}
+.informacoes{
+    max-width: 100%;
+    margin-top: 5px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.portifolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.gallery{
+    width: 80%;    
+    background-color: 0;
+    
+}
+.item{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;        
+}
+
+.produtos{
+    margin: 15px;
+    width: 200px;
+    height: 170px;
+    background-color: chartreuse;
+    overflow: hidden;
+}
+
+footer{
+    height: 420px;
+    background-color: rgb(230, 230, 230);
+    color: white;
+    width: 1170px;    
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: end;
+    margin: auto;
+
+}
+
+.footersection{
+    padding: 10px;
+    height: 322px;
+    width: 336px;
+    background-color: rgba(90, 90, 90, 0.15);
+    border-radius: 8px;
+    margin-top: 15px;
+    text-align: center;
+        
+}
+
+#conteudo{    
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+#localizacao{
+    
+    width: 334px;
+    height: 123px;
+    border-radius: 7px;
+    margin-top: 4px;
+       
+} 
+.sobrenosin{
+    font-size: 85%;
+    padding: 7px;    
+    margin-top: 15px;    
+    border: 1px white;
+    border-style: solid;
+    border-radius: 7px;
+    width: 150px;
+    height: 110px;    
+    display: inline-block;   
+}
+#endereco{        
+    text-align: left;         
+}
+#endereco a{
+    text-decoration: none;
+    color: white;
+}
+#telefones {       
+    list-style-position: inside;  
+    text-align: left;      
+}
+#telefones a {
+    text-decoration: none;
+    color: white;    
+}
+.zap{
+    list-style-image: url(../img/zap.png);
+}
+#fone{
+    list-style-image: url(../img/fone2.png);
+}
+.tabela{
+    margin: auto;
+    margin-top: 15px;
+}
+.tabela, th, td{
+    padding: 5px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-size: 95%;
+}
+.meiospag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cartoes{
+    max-width: 50px;
+    display: inline-block;
+    padding-top: 20px;
+}
+.parcelamentos{
+    margin-top: 15px;
+}
+.parcelamentos p{
+    border: 1px solid black;
+    border-collapse: collapse;
+    overflow: auto;
+
+}
