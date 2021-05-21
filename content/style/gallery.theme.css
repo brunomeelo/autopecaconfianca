@@ -25,7 +25,8 @@
   bottom: 0;
   width: 100%;
   text-align: center;
-  font-size: 65px;
+  font-size: 65px;f
+  
   
 }
 .gallery .control-button {
@@ -35,4 +36,5 @@
   text-align: center;
   text-decoration: none;
   transition: color .1s;
+  font-family: serif;
 }

@@ -1,8 +1,9 @@
 *{
     padding: 0;
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: white;    
+    font-family: sans-serif;
 }
 img{
     width: 100%;
@@ -44,7 +45,9 @@ body{
     background: -webkit-linear-gradient(#ffff00, #ff0000);    
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: rgba(165, 27, 27,0.5) -1px 1px 1px, rgba(251, 255, 0,0.5) 1px -1px 1px;
+    -webkit-text-stroke: 1px black;
+    /* text-shadow: rgba(165, 27, 27,0.5) -1px 1px 1px, rgba(251, 255, 0,0.5) 1px -1px 1px; */
+    
 }
 .portifolio div{
     margin-top: 10px;
@@ -52,7 +55,7 @@ body{
 .informacoes{
     max-width: 100%;
     margin-top: 5px;
-    height: auto;
+    height: 425px;
     display: flex;
     flex-wrap: wrap;
     
@@ -179,7 +182,7 @@ footer{
     justify-content: space-evenly;
 }
 .cartoes{
-    max-width: 50px;
+    max-width: 40px;
     display: inline-block;
     padding-top: 20px;
 }
@@ -191,4 +194,51 @@ footer{
     border-collapse: collapse;
     overflow: auto;
 
+}
+@media screen and (max-width: 321px) {   
+    *{
+        font-size: 0.9rem;
+    }
+    .container{
+        margin: auto;    
+        background-color: rgb(73, 73, 73);
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;  
+        
+    }
+    .barra{
+        height: 250px;
+        background-color: rgb(24, 24, 24);
+    }
+    
+
+}
+
+@media screen and (max-width: 375px) {   
+    *{
+        font-size: 0.9rem;
+    }
+    .container{
+        margin: auto;    
+        background-color: rgb(73, 73, 73);
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;  
+        
+    }
+    .barra{
+        height: 220px;
+        background-color: rgb(24, 24, 24);
+    }
+    
+
+}
+
+@media screen and (max-width: 425px) {
+    .cartoes{
+        max-width: 40px;
+        display: inline-block;
+        padding-top: 20px;
+    }
 }
